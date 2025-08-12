@@ -1,16 +1,16 @@
-# 🚀 PR Review Agent
+#  PR Review Agent
 
 An intelligent AI-powered code review system that analyzes GitHub Pull Requests using local (Ollama) or cloud (OpenAI) language models. Built with FastAPI, Celery, and Redis for high-performance async processing.
 
-## ✨ Features
+##  Features
 
-- **🤖 AI-Powered Reviews**: Uses Ollama (local) or OpenAI (cloud) for intelligent code analysis
+- ** AI-Powered Reviews**: Uses Ollama (local) or OpenAI (cloud) for intelligent code analysis
 - **⚡ High Performance**: Async/await + multithreading for optimal performance
-- **🔄 Background Processing**: Celery-based task queue for non-blocking operations
-- **📊 Batch Processing**: Analyze multiple PRs concurrently
-- **💾 Smart Caching**: Redis-based caching to avoid re-analyzing unchanged code
-- **🔍 Comprehensive Analysis**: Identifies bugs, style issues, performance problems, and best practices
-- **📈 Performance Monitoring**: Built-in benchmarks and metrics
+- ** Background Processing**: Celery-based task queue for non-blocking operations
+- ** Batch Processing**: Analyze multiple PRs concurrently
+- ** Smart Caching**: Redis-based caching to avoid re-analyzing unchanged code
+- ** Comprehensive Analysis**: Identifies bugs, style issues, performance problems, and best practices
+- ** Performance Monitoring**: Built-in benchmarks and metrics
 
 ## 🏗️ Architecture
 
